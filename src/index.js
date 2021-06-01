@@ -1,7 +1,12 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import Demo from "./demo";
+import App from "./app";
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Demo from './demo';
-
-ReactDOM.render(<Demo />, document.querySelector('#root'));
-    
+ReactDOM.render(
+  <div>
+    <Demo />
+    <App />
+  </div>,
+  document.querySelector("#root")
+);

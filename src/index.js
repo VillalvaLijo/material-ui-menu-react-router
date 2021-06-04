@@ -4,9 +4,9 @@ import Demo from "./demo";
 import App from "./app";
 
 ReactDOM.render(
-  <div>
+  <React.StrictMode>
     <Demo />
     <App />
-  </div>,
+  </React.StrictMode>,
   document.querySelector("#root")
 );

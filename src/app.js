@@ -9,11 +9,11 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path="/profile">
-            <Profile />
-          </Route>
           <Route path="/account">
             <Account />
+          </Route>
+          <Route path="/Profile">
+            <Profile />
           </Route>
           <Route path="/logout">
             <Logout />
